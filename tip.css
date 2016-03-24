@@ -1,0 +1,96 @@
+body {
+    background-image: url('fish.jpg');
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+}
+
+#container {
+    height: 550px;
+    width: 400px;
+    background-color: black;
+    opacity: 0.8;
+    margin: 200px auto;
+    border-radius: 10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    box-shadow: 10px 10px 20px -8px black;
+    z-index: -5;
+}
+
+h1 {
+    text-align: center;
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 35px;
+    text-shadow: 3px 3px 10px black;
+    padding-top: 60px;
+    letter-spacing: 2px;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    font-size: 18px;
+    font-family: "museo-sans-display",sans-serif;
+    letter-spacing: 0.5px;
+    color: #00a30b;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 20px 10px; 
+    text-align: left
+}
+
+form input, form select {
+    margin: 10px 0px;
+}
+
+form input[type="text"] {
+    color: white;
+    font-family: "museo-sans-display",sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    width: 80px;
+    height: 20px;
+    background-color: black;
+    border: solid 1px grey;
+}
+
+button {
+    padding: 20px auto; 
+    background: black;
+    color: white; 
+    border: solid 1px white;
+    height: 40px;
+    width: 80%;
+}
+
+button:hover {
+    background: #00a30b;
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#totalTip:before {
+    content: "Tip Amount";
+    font-size: 15px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#totalTip sup {
+    font-size: 20px;
+    top: -18px;
+}
+
+#totalTip small {
+    display: block;
+    font-size: 13px;
+}
+
